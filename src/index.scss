@@ -1,0 +1,51 @@
+
+$t_00: #000000;
+$t_05: #121212;
+$t_07: #191414;
+$t_14: #232323;
+$t_73: #b3b2b2;
+$t_99: #ffffff;
+$t_mint: #2ee590;
+$t_mintdark: #20c679;
+$t_greenlight: #1cd760;
+$t_green: #1db954;
+$t_greendark: #00624e;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: $t_99;
+  background-color: $t_07;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.paragraph {
+  background-color: $t-mint;
+}
+
+a {
+  font-weight: 500;
+  color: $t_mint;
+}
+a:hover {
+  color: $t_mintdark;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
